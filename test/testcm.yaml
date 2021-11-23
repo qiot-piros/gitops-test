@@ -1,0 +1,8 @@
+---
+apiVersion: v1
+data:
+  test: hello
+kind: ConfigMap
+metadata:
+  name: testcm
+  namespace: trigger-tests
